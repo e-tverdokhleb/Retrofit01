@@ -95,8 +95,8 @@ public class MainActivity extends AppCompatActivity {
 
         @Override
         protected void onPostExecute(String result) {
-          //   TextView textView = (TextView) findViewById(R.id.textView);
-         //   textView.setText(result);
+             TextView textView = (TextView) findViewById(R.id.textView);
+            textView.setText(result);
         }
     }
 }
